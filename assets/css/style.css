@@ -1,0 +1,67 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Solway:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    
+}
+
+:root{
+    --dark-pink:#dd127b;
+    --blue:#1CABF3;
+}
+
+.darkpink{background: var(--dark-pink);}
+.darkpink1{color: var(--dark-pink);}
+.bg-secondary-2{background: #e2e2e2;}
+.blue{color: var(--blue);}
+
+
+
+.pb-2{margin-bottom: 10%;}
+.pt-20{padding-top: 50px;}
+.pb-20{padding-bottom: 50px;}
+.mt-10{margin-top: 5%;}
+
+.btn{
+    font-weight: 500;
+    color: #fff;
+    background: #1CABF3;
+}
+.btn:hover{
+    font-weight: 500;
+    color: var(--dark-pink);
+    background: #1CABF3;
+}
+/* Navbar Section Start */
+.navbar-brand img,
+.btn{
+    transition: 0.2s linear;
+}
+.navbar-brand img:hover,
+.btn:hover{
+    transform: scale(1.05);
+    transition: 0.2s linear;
+}
+/* /Navbar Section End */
+
+/* Hero Section Start */
+.carousel-indicators
+[data-bs-target]{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #dd127b;
+}
+/* Hero Section End */
+
+/* About Us Section Start */
+.about-us h4{
+    padding: 20px;
+    color: #dd127b;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px rgb(232, 228, 228);
+}
+/* /About Us Section End */
