@@ -15,6 +15,7 @@
 .darkpink{background: var(--dark-pink);}
 .darkpink1{color: var(--dark-pink);}
 .bg-secondary-2{background: #e2e2e2;}
+.bg-blue{background: #87CEEB;}
 .blue{color: var(--blue);}
 
 
@@ -23,6 +24,14 @@
 .pt-20{padding-top: 50px;}
 .pb-20{padding-bottom: 50px;}
 .mt-10{margin-top: 5%;}
+.fs-12{font-size: 12px;}
+.fs-13{font-size: 14px;}
+.fs-16{font-size: 16px;}
+.fw-5{font-weight: 500;}
+.ps-4{padding-left: 1.5rem!important;}
+.ps-3{padding-left: 1rem!important;}
+.text-start{text-align: left!important;}
+.mb-lg-5{margin-bottom: 3rem !important;}
 
 .btn{
     font-weight: 500;
@@ -64,4 +73,116 @@
     font-weight: bold;
     box-shadow: 0px 0px 20px rgb(232, 228, 228);
 }
+.about-us p{
+    font-family: "roboto", sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.4px;
+}
 /* /About Us Section End */
+
+/* enquery Section Strart */
+.address{
+    padding: 0px 30px;
+    border-radius: 15px;
+    border-top: 4px solid #0093dd;
+    border-bottom: 4px solid #0093dd;
+    box-shadow: 0px 0px 3px 1px #ccc;
+}
+.address .icon{
+    font-size: 25px;
+    padding: 11px 20px;
+    color: #0093dd;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 1px #ccc;
+}
+.address .icon :hover{
+    color: #dd127b;
+}
+.btn1{
+    padding: 10px 90px;
+    font-weight: 600;
+    color: #fff;
+    background-color: green;
+}
+.btn1:hover{
+    background-color: #000;
+    color: #fff;
+}
+/* /enquery Section End */
+
+/* Footer Section Start */
+footer .ul li a{
+    font-size: 12px;
+    padding: 10px 14px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 1px #0093dd;
+    color: #fff;
+    background: #0093dd;
+}
+footer p{
+    font-family: "roboto", sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.4px;
+}
+footer .ul li a:hover{
+    color: #dd127b;
+}
+footer .get a,
+.Course .a{
+    color: #fff;
+}
+footer .get a:hover,
+.Course .a:hover{
+    color: #dd127b;
+}
+.footer-2{
+    border-top: 1px solid #fff;
+}
+.footer-2 a, .a{
+    color: blue;
+}
+.footer-2 a:hover, .a:hover{
+    color:#dd127b;
+}
+/* /Footer Section end */
+
+
+/* About Section Start */
+.breadcrumb{
+    height: 350px;
+    line-height: 350px;
+    justify-content: center;
+    background: url(../img/Allbannerr\ \(2\).jpg);
+}
+.about p{
+    font-family: "roboto", sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    letter-spacing: 0.4px;
+}
+/* About Section End */
+
+/* Registration Section Srart */
+.registration{
+   max-width: 540px;
+   margin-left: 29%;
+    
+}
+.registration form{
+    padding: 10px;
+}
+.registration button{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.enquire button{
+  margin-left: 45%;
+  padding: 5px 10px;
+    font-size: 20px;
+
+}
+/* Registration Section End */
